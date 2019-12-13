@@ -2,27 +2,6 @@
 
 Estudando Redux com React.
 
-# Notas
-
-Store: É um container que armazena todo o estado da sua aplicação.  
-Action:  
-	- É um objeto que representa a intenção de mudar o estado.  
-	- Neste objeto há novas informações que serão enviadas a store.  
-	- Emitimos actions (através da função de dispatch) para atualizarmos o estado com novas informações.  
-	- Descreve o que aconteceu.  
-	- Diz o que aconteceu.  
-    - É um objeto que diz uma ação, e dentro dele há informações sobre esta ação.  
-    - É um objeto que diz que quer mudar algo no estado.  
-	- As actions são passadas para o reducers, para eles saberem como vão transformar o estado.  
-Reducer:  
-	- É uma função pura com a assinatura `(prevState, action) => nextState`.  
-	- Ela aceita o estado anterior e uma ação, e com isso calcula o próximo estado da aplicação.  
-	- Diz como o estado será transformado.  
-    - Recebe e trata as informações que foram enviadas a store.  
-    - Evolui o estado para um novo.  
-
-Provider do React Redux: Permite que todos os componentes abaixo dele acessem a store.
-
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
